@@ -1,0 +1,31 @@
+{
+  "name": "mail-admin",
+  "description": "",
+  "moduleType": [],
+  "authors": [
+    "Edwin Liu"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "libs"
+  ],
+  "dependencies": {
+    "jquery": "git://github.com/jquery/jquery-dist.git#~2.2.3",
+    "steal": "git://github.com/stealjs/steal.git#~0.15.6",
+    "bootstrap": "git://github.com/twbs/bootstrap#~3.3.6",
+    "can": "git://github.com/bitovi/canjs.com.git#~2.3.23"
+  },
+  "system": {
+    "bowerIgnore": [
+      "jquery",
+      "bootstrap"
+    ]
+  }
+}
