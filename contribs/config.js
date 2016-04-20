@@ -12,6 +12,7 @@ System.config({
   },
   meta: {
     "jquery": {
+        exports: 'jQuery',
         format: "global"
     },
     "bootstrap": {
