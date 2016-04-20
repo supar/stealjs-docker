@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "jquery": "git://github.com/jquery/jquery-dist.git#~2.2.3",
-    "steal": "git://github.com/stealjs/steal.git#~0.15.6",
+    "steal": "git://github.com/stealjs/steal.git#~0.16.2",
     "bootstrap": "git://github.com/twbs/bootstrap#~3.3.6",
     "can": "git://github.com/bitovi/canjs.com.git#~2.3.23"
   },
