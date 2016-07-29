@@ -28,6 +28,7 @@ ADD contribs/config.js /opt/jmvc/config.js
 ADD contribs/bower.json /opt/jmvc/bower.json
 
 RUN cd /opt/jmvc && bower install --allow-root
+RUN npm install -g node-sass
 
 ADD contribs/run.sh /usr/local/bin/run.sh
 ADD README.md /README.md
