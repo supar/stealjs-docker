@@ -22,6 +22,7 @@ case "$RUN_COMMAND" in
         exit 127;
     ;;
     *)
-	    echo "Unsupported command: " $RUN_COMMAND $@
+	    echo "Unsupported command. Forward to bash... "
+	    $RUN_COMMAND $@
     ;;
 esac
