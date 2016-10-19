@@ -3,7 +3,7 @@
   "description": "",
   "moduleType": [],
   "authors": [
-    "Edwin Liu"
+    "Paul Rezunenko"
   ],
   "license": "MIT",
   "homepage": "",
@@ -17,10 +17,10 @@
     "libs"
   ],
   "dependencies": {
-    "jquery": "git://github.com/jquery/jquery-dist.git#~2.2.3",
-    "steal": "git://github.com/stealjs/steal.git#~0.16.2",
-    "bootstrap": "git://github.com/twbs/bootstrap#~3.3.6",
-    "can": "git://github.com/bitovi/canjs.com.git#~2.3.23"
+    "jquery": "git://github.com/jquery/jquery-dist.git#~2.2.4",
+    "steal": "git://github.com/stealjs/steal.git#~0.16.39",
+    "bootstrap": "git://github.com/twbs/bootstrap#~3.3.7",
+    "can": "git://github.com/bitovi/canjs.com.git#~2.3.27"
   },
   "system": {
     "bowerIgnore": [
